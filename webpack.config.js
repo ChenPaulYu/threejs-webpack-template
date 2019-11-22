@@ -11,7 +11,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "bundle.js",
-        publicPath: "/threejs-webpack-demo/",
+        publicPath: "/threejs-webpack-template/",
     },
     module: {
         rules: [
@@ -26,7 +26,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Three-Webpack-Template',
+            title: 'threejs-webpack-template',
             filename: 'index.html'
         })
     ]
