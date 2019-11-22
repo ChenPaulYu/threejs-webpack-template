@@ -1,4 +1,4 @@
-# Three.js + Webpack4 + Gh-Pages Minimal Template
+# Three.js + Webpack4 + Gh-Pages Template
 
 
 ### Run Locally
