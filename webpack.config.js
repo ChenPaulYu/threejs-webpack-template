@@ -13,6 +13,10 @@ module.exports = {
         filename: "bundle.js",
         publicPath: "/threejs-webpack-template/",
     },
+    devtool: 'inline-source-map',
+    devServer: {
+        contentBase: './dist'
+    },
     module: {
         rules: [
             {
